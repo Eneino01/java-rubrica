@@ -6,7 +6,8 @@ import java.util.*;
 import javax.annotation.processing.FilerException;
 
 public class Rubrica {
-
+	
+	//Creazione HashMap
 	private HashMap<String, Contatto> rubrica;
 	private static final String FILE_PATH = "data.csv";
 	private BufferedReader reader;
